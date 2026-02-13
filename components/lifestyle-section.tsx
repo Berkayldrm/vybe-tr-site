@@ -29,10 +29,10 @@ export function LifestyleSection() {
   }, [])
 
   return (
-    <section ref={sectionRef} id="lifestyle" className="py-16 lg:py-24 bg-[#FFEDDB]">
+    <section ref={sectionRef} id="lifestyle" className="py-16 lg:py-24 bg-white">
       <div className="max-w-6xl mx-auto px-6 lg:px-8">
         {/* Beige Container */}
-        <div className="reveal opacity-0 bg-[#EDCDBB] rounded-[2.5rem] p-6 md:p-10 lg:p-12 shadow-[0_8px_40px_-12px_rgba(191,146,112,0.15)]">
+        <div className="reveal opacity-0 bg-[#EDE7E1] rounded-[2.5rem] p-6 md:p-10 lg:p-12 shadow-[0_8px_40px_-12px_rgba(191,146,112,0.15)]">
           {/* Image */}
           <div className="aspect-[4/5] sm:aspect-[3/2] lg:aspect-video rounded-[1.5rem] overflow-hidden mb-8 lg:mb-12">
             <img
@@ -44,10 +44,10 @@ export function LifestyleSection() {
 
           {/* Text Content Below Image */}
           <div className="text-center px-4 md:px-8 lg:px-12">
-            <h2 className="reveal opacity-0 font-serif text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-light text-[#5C4033] mb-4 lg:mb-6 text-balance">
+            <h2 className="reveal opacity-0 font-serif text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-light text-[#2B2B2B] mb-4 lg:mb-6 text-balance">
               Ritüel bir keyif olsun
             </h2>
-            <p className="reveal opacity-0 text-[#8B7355] text-base md:text-lg lg:text-xl max-w-2xl mx-auto leading-relaxed">
+            <p className="reveal opacity-0 text-[#2B2B2B] text-base md:text-lg lg:text-xl max-w-2xl mx-auto leading-relaxed">
               Dur, fark et, kendine dön. VYBE ile cilt bakımı bir zorunluluk değil, günün en keyifli anı haline gelir.
             </p>
           </div>
