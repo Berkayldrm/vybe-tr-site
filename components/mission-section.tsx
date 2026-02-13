@@ -26,10 +26,10 @@ export function MissionSection() {
   }, [])
 
   return (
-    <section ref={sectionRef} id="mission" className="py-16 lg:py-24 bg-[#FFEDDB]">
+    <section ref={sectionRef} id="mission" className="py-16 lg:py-24 bg-[#FBF7F2]">
       <div className="max-w-6xl mx-auto px-6 lg:px-8">
         {/* Beige Container */}
-        <div className="reveal opacity-0 bg-[#EDCDBB] rounded-[2.5rem] p-6 md:p-10 lg:p-12 shadow-[0_8px_40px_-12px_rgba(191,146,112,0.15)]">
+        <div className="reveal opacity-0 bg-white border border-black/10 rounded-[2.5rem] p-6 md:p-10 lg:p-12 shadow-[0_18px_60px_-30px_rgba(0,0,0,0.35)]">
           {/* Responsive Image */}
           <div className="rounded-[1.5rem] overflow-hidden mb-8 lg:mb-12">
             {/* Mobile Image - Portrait */}
@@ -48,13 +48,13 @@ export function MissionSection() {
 
           {/* Text Content Below Image */}
           <div className="text-center px-4 md:px-8 lg:px-12">
-            <p className="reveal opacity-0 text-sm uppercase tracking-[0.2em] text-[#BF9270] font-medium mb-4">
+            <p className="reveal opacity-0 text-sm uppercase tracking-[0.2em] text-[#1F1F1F]/60 font-medium mb-4">
               VYBE Nasıl Doğdu
             </p>
-            <h2 className="reveal opacity-0 animation-delay-200 font-serif text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-light text-[#5C4033] mb-6 lg:mb-8 text-balance">
+            <h2 className="reveal opacity-0 animation-delay-200 font-serif text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-light text-[#1F1F1F] mb-6 lg:mb-8 text-balance">
               İki kadın girişimcinin vizyonu
             </h2>
-            <div className="reveal opacity-0 animation-delay-400 space-y-6 text-[#8B7355] leading-relaxed max-w-3xl mx-auto">
+            <div className="reveal opacity-0 animation-delay-400 space-y-6 text-[#1F1F1F]/70 leading-relaxed max-w-3xl mx-auto">
               <p className="text-base md:text-lg">
                 VYBE, iki kadın girişimcinin modern yaşamın hızında kaybolan "durma, fark etme ve kendine dönme" ihtiyacını fark etmesiyle doğdu.
               </p>
@@ -65,7 +65,7 @@ export function MissionSection() {
             <div className="reveal opacity-0 animation-delay-600 mt-10">
               <Button
                 size="lg"
-                className="bg-[#E3B7A0] text-[#3D2E24] hover:bg-[#BF9270] hover:text-white rounded-full px-8 py-6 text-base group transition-colors"
+                className="bg-[#1F1F1F] text-white hover:opacity-90 rounded-full px-8 py-6 text-base group transition"
               >
                 Hikayemizi keşfet
                 <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
