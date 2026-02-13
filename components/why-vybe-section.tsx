@@ -114,14 +114,14 @@ export function WhyVybeSection() {
   }, [])
 
   return (
-    <section ref={sectionRef} id="why-vybe" className="py-24 lg:py-32 bg-[#FFEDDB]">
+    <section ref={sectionRef} id="why-vybe" className="py-24 lg:py-32 bg-[#F7F4EF]">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-24 lg:mb-32">
-          <h2 className="reveal opacity-0 font-serif text-4xl md:text-5xl lg:text-6xl font-light text-[#5C4033] text-balance mb-6">
+          <h2 className="reveal opacity-0 font-serif text-4xl md:text-5xl lg:text-6xl font-light text-[#2B2B2B] text-balance mb-6">
             VYBE = Kendini Hisset
           </h2>
-          <p className="reveal opacity-0 animation-delay-200 text-lg text-[#8B7355] max-w-2xl mx-auto leading-relaxed">
+          <p className="reveal opacity-0 animation-delay-200 text-lg text-[#2B2B2B] max-w-2xl mx-auto leading-relaxed">
             Modern yaşamın hızında kaybolan "durma, fark etme ve kendine dönme" anlarını yeniden keşfet. VYBE felsefesi üç temel kavram üzerine inşa edilmiştir.
           </p>
         </div>
@@ -144,14 +144,14 @@ export function WhyVybeSection() {
               <div className="flex flex-col items-center text-center group">
                 {/* Icon */}
                 <div className="w-20 h-20 md:w-24 md:h-24 flex items-center justify-center mb-6 transition-transform duration-300 group-hover:scale-110">
-                  <feature.Icon className="w-full h-full text-[#BF9270]" />
+                  <feature.Icon className="w-full h-full text-[#333333]" />
                 </div>
 
                 {/* Title */}
-                <h3 className="font-serif text-xl font-medium text-[#5C4033] mb-3">{feature.title}</h3>
+                <h3 className="font-serif text-xl font-medium text-[#2B2B2B] mb-3">{feature.title}</h3>
 
                 {/* Description */}
-                <p className="text-[#8B7355]/80 leading-relaxed text-sm">{feature.description}</p>
+                <p className="text-[#2B2B2B]/80 leading-relaxed text-sm">{feature.description}</p>
               </div>
             </div>
           ))}
