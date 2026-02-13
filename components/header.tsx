@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button"
 export function Header() {
   const [isOpen, setIsOpen] = useState(false)
 
-const TRENDYOL_URL = "https://www.trendyol.com/"
+const TRENDYOL_URL = "https://www.trendyol.com/magaza/vybe-feel-yourself-m-1233726?sst=0&channelId=1"
   return (
     <header className="sticky top-4 left-0 right-0 z-50 p-4">
       <nav className="max-w-7xl mx-auto bg-white/90 backdrop-blur-md border border-black/5 rounded-2xl shadow-sm">
