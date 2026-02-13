@@ -65,7 +65,7 @@ export function MissionSection() {
             <div className="reveal opacity-0 animation-delay-600 mt-10">
               <Button
                 size="lg"
-                className="bg-[#1F1F1F] text-white hover:opacity-90 rounded-full px-8 py-6 text-base group transition"
+                className="bg-[#1F1F1F] text-white hover:bg-white hover:text-[#1F1F1F] border border-[#1F1F1F] rounded-full px-8 py-6 text-base group transition-all duration-300"
               >
                 Hikayemizi keşfet
                 <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
