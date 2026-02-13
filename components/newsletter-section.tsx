@@ -51,30 +51,28 @@ export function NewsletterSection() {
           <p className="reveal opacity-0 animation-delay-400 text-base md:text-lg text-[#5C4033]/80 leading-relaxed mb-12 max-w-2xl mx-auto">
             Cilt bakımında yeni bir dönemin habercisi ol. Özel lansmanlardan, ritüel ipuçlarından ve kampanyalardan ilk siz haberdar olun.
           </p>
+<div className="mt-10 flex justify-center">
+  <a
+    href="https://www.instagram.com/vybefeelyourself/"
+    target="_blank"
+    rel="noreferrer"
+    className="
+      inline-flex items-center gap-3
+      rounded-full px-8 py-4
+      bg-[#1F1F1F] text-white
+      border border-[#1F1F1F]
+      transition-all duration-300
+      hover:bg-white hover:text-[#1F1F1F]
+      hover:-translate-y-[2px]
+      shadow-[0_20px_50px_-20px_rgba(0,0,0,0.35)]
+    "
+  >
+    Instagram’da Takip Et
+    <ArrowRight className="ml-2 w-4 h-4" />
+  </a>
+</div>
 
-          {/* Newsletter Form */}
-          <form onSubmit={handleSubmit} className="reveal opacity-0 animation-delay-600">
-            <div className="flex flex-col sm:flex-row gap-3 max-w-lg mx-auto items-stretch">
-              <input
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="E-posta adresiniz"
-                required
-                className="flex-1 px-6 py-3.5 rounded-full bg-white/90 backdrop-blur-sm border border-[#BF9270]/20 text-[#5C4033] placeholder:text-[#8B7355]/60 focus:outline-none focus:ring-2 focus:ring-[#BF9270]/40 transition-all h-12"
-              />
-              <Button
-                type="submit"
-                className="bg-[#5C4033] text-[#FFEDDB] hover:bg-[#3D2E24] rounded-full px-8 group transition-colors whitespace-nowrap h-12 font-medium"
-              >
-                Abone Ol
-                <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-              </Button>
-            </div>
-            <p className="text-xs text-[#5C4033]/60 mt-4">
-              Gizliliğinize saygı duyuyoruz. İstediğiniz zaman abonelikten çıkabilirsiniz.
-            </p>
-          </form>
+          
         </div>
       </div>
 
