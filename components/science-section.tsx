@@ -112,18 +112,18 @@ export function ScienceSection() {
   }, [])
 
   return (
-    <section ref={sectionRef} id="ingredients" className="py-24 lg:py-32 bg-[#BF9270] text-[#FFEDDB]">
+    <section ref={sectionRef} id="ingredients" className="py-24 lg:py-32 bg-gradient-to-b from-[#1F1F1F] to-[#2A2A2A] text-white">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16 lg:mb-20">
-          <p className="reveal opacity-0 text-sm uppercase tracking-[0.2em] text-[#FFEDDB]/70 font-medium mb-4">
+          <p className="reveal opacity-0 text-sm uppercase tracking-[0.2em] text-white/60 font-medium mb-4">
             AR-GE YAKLAŞIMIMIZ
           </p>
           <ScrollBlurText
             text="Minimal ama etkili"
-            className="font-serif text-3xl md:text-4xl text-[#FFEDDB] text-balance mb-6 lg:text-6xl font-light"
+            className="font-serif text-3xl md:text-4xl text-white text-balance mb-6 lg:text-6xl font-light"
           />
-          <p className="reveal opacity-0 animation-delay-400 text-lg text-[#FFEDDB]/80 max-w-2xl mx-auto leading-relaxed">
+          <p className="reveal opacity-0 animation-delay-400 text-lg text-white/70 max-w-2xl mx-auto leading-relaxed">
             Agresif aktiflerden kaçınıyor, cilt bariyerini destekleyen içerikleri önceliklendiriyoruz. Günlük ve uzun vadeli kullanıma uygun, birlikte sinerji yaratan formülasyonlar.
           </p>
         </div>
@@ -133,7 +133,7 @@ export function ScienceSection() {
           {ingredientIcons.map((Icon, index) => (
             <div key={index} className="flex justify-center">
               <div className="w-20 h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 flex items-center justify-center">
-                <Icon className="w-full h-full text-[#FFEDDB]/90" />
+                <Icon className="w-full h-full text-white" />
               </div>
             </div>
           ))}
@@ -146,12 +146,12 @@ export function ScienceSection() {
               key={ingredient.number}
               className={`reveal opacity-0 ${index === 1 ? "animation-delay-200" : index === 2 ? "animation-delay-400" : ""}`}
             >
-              <div className="border-t border-[#FFEDDB]/20 pt-8">
-                <span className="text-sm font-medium text-[#FFEDDB]/50 mb-4 block">{ingredient.number}</span>
-                <h3 className="font-serif text-xl md:text-2xl font-medium text-[#FFEDDB] mb-4">
+              <div className="border-t border-white/10 pt-8">
+                <span className="text-sm font-medium text-white/40 mb-4 block">{ingredient.number}</span>
+                <h3 className="font-serif text-xl md:text-2xl font-medium text-white mb-4">
                   {ingredient.title}
                 </h3>
-                <p className="text-[#FFEDDB]/70 leading-relaxed">{ingredient.description}</p>
+                <p className="text-white/70 leading-relaxed">{ingredient.description}</p>
               </div>
             </div>
           ))}
