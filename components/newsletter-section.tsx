@@ -57,18 +57,20 @@ export function NewsletterSection() {
     href="https://instagram.com/vybe"
     target="_blank"
     rel="noreferrer"
-    className="inline-flex items-center gap-3 rounded-full px-8 py-4 bg-[#1F1F1F] text-white border border-[#1F1F1F] transition-all duration-300 hover:bg-white hover:text-[#1F1F1F] hover:-translate-y-[2px] shadow-[0_20px_50px_-20px_rgba(0,0,0,0.35)]"
+    className="inline-flex items-center gap-3 rounded-full px-10 py-5 bg-[#1F1F1F] text-white border border-[#1F1F1F] transition-all duration-300 hover:bg-white hover:text-[#1F1F1F] hover:scale-[1.04]"
   >
     Instagram’da Takip Et
     <ArrowRight className="ml-2 w-4 h-4" />
   </a>
 </div>
-<div className="flex justify-center lg:justify-end">
+<div className="relative flex justify-center lg:justify-end">
   <img
    src="/instagram-phone.png"
     alt="Vybe Instagram"
-    className="w-[320px] lg:w-[380px] drop-shadow-[0_40px_60px_rgba(0,0,0,0.25)]"
+    className="relative z-10 w-[320px] lg:w-[380px] drop-shadow-[0_40px_60px_rgba(0,0,0,0.25)]"
+    
   />
+  <div className="absolute w-[260px] h-[260px] bg-[#EBD8C9] blur-[120px] rounded-full"></div>
 </div>
 
 </div>
