@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react"
 import { Button } from "@/components/ui/button"
-import { ArrowRight } from "lucide-react"
+import { ArrowRight } from "lucide-react";
 
 export function NewsletterSection() {
   const sectionRef = useRef<HTMLElement>(null)
@@ -53,19 +53,10 @@ export function NewsletterSection() {
           </p>
 <div className="mt-10 flex justify-center">
   <a
-    href="https://www.instagram.com/vybefeelyourself/"
+    href="https://instagram.com/vybe"
     target="_blank"
     rel="noreferrer"
-    className="
-      inline-flex items-center gap-3
-      rounded-full px-8 py-4
-      bg-[#1F1F1F] text-white
-      border border-[#1F1F1F]
-      transition-all duration-300
-      hover:bg-white hover:text-[#1F1F1F]
-      hover:-translate-y-[2px]
-      shadow-[0_20px_50px_-20px_rgba(0,0,0,0.35)]
-    "
+    className="inline-flex items-center gap-3 rounded-full px-8 py-4 bg-[#1F1F1F] text-white border border-[#1F1F1F] transition-all duration-300 hover:bg-white hover:text-[#1F1F1F] hover:-translate-y-[2px] shadow-[0_20px_50px_-20px_rgba(0,0,0,0.35)]"
   >
     Instagram’da Takip Et
     <ArrowRight className="ml-2 w-4 h-4" />
