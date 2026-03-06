@@ -39,9 +39,10 @@ export function NewsletterSection() {
   }
 
   return (
-    <section ref={sectionRef} id="newsletter" className="py-24 lg:py-32 bg-[#E3B7A0] border-y border-[#BF9270]/20">
-      <div className="max-w-4xl mx-auto px-6 lg:px-8">
-        <div className="text-center">
+    <section ref={sectionRef} id="newsletter" className="py-24 lg:py-32 bg-[#F7F4F1] border-y border-[#BF9270]/20">
+      <div className="max-w-6xl mx-auto px-6 lg:px-8">
+        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="text-center lg:text-left">
           <p className="reveal opacity-0 text-sm uppercase tracking-[0.2em] text-[#5C4033]/70 font-medium mb-4">
             VYBE Topluluğuna Katıl
           </p>
@@ -51,7 +52,7 @@ export function NewsletterSection() {
           <p className="reveal opacity-0 animation-delay-400 text-base md:text-lg text-[#5C4033]/80 leading-relaxed mb-12 max-w-2xl mx-auto">
             Cilt bakımında yeni bir dönemin habercisi ol. Özel lansmanlardan, ritüel ipuçlarından ve kampanyalardan ilk siz haberdar olun.
           </p>
-<div className="mt-10 flex justify-center">
+<div className="mt-10 flex justify-center lg:justify-start">
   <a
     href="https://instagram.com/vybe"
     target="_blank"
@@ -61,6 +62,15 @@ export function NewsletterSection() {
     Instagram’da Takip Et
     <ArrowRight className="ml-2 w-4 h-4" />
   </a>
+</div>
+<div className="flex justify-center lg:justify-end">
+  <img
+   src="/images/instagram-phone.png"
+    alt="Vybe Instagram"
+    className="w-[320px] lg:w-[380px] drop-shadow-[0_40px_60px_rgba(0,0,0,0.25)]"
+  />
+</div>
+
 </div>
 
           
