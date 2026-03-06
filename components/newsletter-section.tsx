@@ -65,7 +65,7 @@ export function NewsletterSection() {
 </div>
 <div className="relative flex justify-center lg:justify-end">
   <img
-   src="/instagram-phone.png"
+   src="/insta2.png"
     alt="Vybe Instagram"
     className="relative z-10 w-[320px] lg:w-[380px] drop-shadow-[0_40px_60px_rgba(0,0,0,0.25)]"
     
