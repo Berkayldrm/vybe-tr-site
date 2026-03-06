@@ -54,7 +54,7 @@ export function NewsletterSection() {
           </p>
 <div className="mt-10 flex justify-center lg:justify-start">
   <a
-    href="https://instagram.com/vybe"
+    href="https://instagram.com/vybefeelyourself"
     target="_blank"
     rel="noreferrer"
     className="inline-flex items-center gap-3 rounded-full px-10 py-5 bg-[#1F1F1F] text-white border border-[#1F1F1F] transition-all duration-300 hover:bg-white hover:text-[#1F1F1F] hover:scale-[1.04]"
@@ -62,8 +62,10 @@ export function NewsletterSection() {
     Instagram’da Takip Et
     <ArrowRight className="ml-2 w-4 h-4" />
   </a>
-</div>
-<div className="relative flex justify-center lg:justify-end">
+  </div>
+  </div>
+  
+  <div className="relative flex justify-center lg:justify-end">
   <img
    src="/insta2.png"
     alt="Vybe Instagram"
@@ -72,12 +74,9 @@ export function NewsletterSection() {
   />
   <div className="absolute w-[260px] h-[260px] bg-[#EBD8C9] blur-[120px] rounded-full"></div>
 </div>
-
 </div>
 
-          
-        </div>
-      </div>
+</div>
 
       <style jsx>{`
         .reveal {
